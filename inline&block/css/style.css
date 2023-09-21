@@ -1,0 +1,14 @@
+.hello-world {
+  color: magenta;
+  font-size: 24px;
+  p1 {
+    display:inline;
+    float: right;
+  }
+  p2 {
+    display:block;
+  }
+  p3 {
+    display:inline-block;
+  }
+}
