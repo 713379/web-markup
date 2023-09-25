@@ -1,14 +1,16 @@
 .hello-world {
   color: magenta;
   font-size: 24px;
-  p1 {
+}
+  .p1 {
     display:inline;
     float: right;
   }
-  p2 {
+  .p2 {
     display:block;
+    color: blue;
   }
-  p3 {
+  .p3 {
     display:inline-block;
   }
-}
+

@@ -1,0 +1,19 @@
+body {
+  font: 14;
+}
+.border {
+  background : #000;
+  color: #974d4d;
+}
+
+.article {
+  width: 640px;
+  background : #F8F;
+  margin: 10px;
+  border: solid 10px #F0F;
+  padding: 10px;
+  float: left;
+}
+.p {
+  background: rgb(73, 73, 25);
+}
