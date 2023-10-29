@@ -1,0 +1,37 @@
+/* this is the CSS portion for Homepage(index.html) */ 
+body {
+    border-width: 500px
+    padding: 10px;
+    border-color: red
+}
+
+Homepage {
+    letter-spacing:15px
+}
+
+hover1.a {
+    line-height: 2.5cm;
+    text-indent: 1cm;
+    word-spacing: 1cm;
+}
+
+a:hover {
+    color: lightgray
+}
+a:active {
+    color: lightgray
+}
+
+img {  /*       background image       */
+    border-width: 500px;
+    width: 10px /*sets width*/
+}
+
+
+nav {
+    text-align:center
+}
+
+footer {
+    text-align:end
+}
