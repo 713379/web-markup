@@ -1,5 +1,5 @@
 Student name: Jacobo Martinez Llanso
 Student number: 713379
 Student class: 1b
-GitHub Repository: 
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/713379/web-markup
+GitHub Pages URL: https://github.com/713379/web-markup/tree/main/Assesment2324

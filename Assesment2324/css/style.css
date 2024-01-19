@@ -1,37 +1,107 @@
-/* this is the CSS portion for Homepage(index.html) */ 
-body {
-    border-width: 500px
+#hide-cookies-toggle {
+    display: none; 
+}
+
+#cookies-message {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #f0f0f0;
     padding: 10px;
-    border-color: red
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+    display: block; 
 }
 
-Homepage {
-    letter-spacing:15px
+#hide-cookies-toggle:checked + #cookies-message {
+    display: none; 
 }
 
-hover1.a {
+.close-cookies {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#byPhone {
+    text-transform: uppercase;
+}
+
+body.Home_page {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/IMG20210502204957.png") ;
+    background-size: cover;
+}
+
+.homepage {
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+button .hover-text {
     line-height: 2.5cm;
     text-indent: 1cm;
     word-spacing: 1cm;
 }
 
-a:hover {
-    color: lightgray
+a:hover, a:active {
+    color: lightgray;
 }
-a:active {
-    color: lightgray
-}
-
-img {  /*       background image       */
-    border-width: 500px;
-    width: 10px /*sets width*/
-}
-
 
 nav {
-    text-align:center
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
-    text-align:end
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: end;
+}
+
+ body.copyright {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin: 0;
+}
+
+body.aboutUs {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background-gradient.jpg");
+    background-size: cover;
+}
+
+body.order {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background-gradient.jpg");
+    background-size: cover;
+}
+
+body.contactUs {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/Grey-Gradient-Background-6.jpg");
+    background-size: cover;
+}
+
+body.locateUs {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/locateUsBackground.jpg");
+    background-size: cover;
 }
